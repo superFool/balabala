@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'podTest/*.*'
+  s.source_files = 'podTest/podTest/*.*'
   #s.resources = 'Pod/Assets/*'
 
   s.frameworks = 'UIKit', 'CoreText'
